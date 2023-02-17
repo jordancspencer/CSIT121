@@ -1,0 +1,39 @@
+body {
+  background-color: #FAEBD7;
+  background-image: url("images/sunset.jfif");
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 30px;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+  color: #DC143C;
+}
+
+img {
+  margin-left: 740px;
+  box-shadow: 10px 10px;
+  border-radius: 25px;
+}
+
