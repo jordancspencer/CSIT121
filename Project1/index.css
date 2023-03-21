@@ -1,0 +1,62 @@
+body {
+  	background-image: url("./background.jpg");
+  	background-color: rgba(200,100,0,.5);
+  	background-blend-mode: multiply;
+}
+
+section {
+	font-family: "Candara", Arial, serif;
+	color: #FFF0DE;
+	padding-top: 200px;
+	padding-left: 400px;
+}
+
+a {
+	font-weight: bold;
+	font-size: 23px;
+	color: #80C9FF;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #73E0FA;
+}
+
+a.HP {
+	padding-left: 15px;
+	padding-right: 13px;
+}
+
+a.CH {
+	padding-right: 13px;
+}
+
+a.INV {
+	padding-right: 13px;
+}
+
+div.Links {
+	background-color: #276280;
+	width: 33%;
+}
+
+
+p {
+	color: #DCFCFF;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+span.Name {
+	color: #80C9FF;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
