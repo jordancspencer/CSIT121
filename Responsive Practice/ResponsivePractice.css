@@ -1,0 +1,36 @@
+.flex-container {
+  display: flex;
+  background-color: #E9D4A1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-basis: 350px;
+}
+
+div.gallery {
+  margin: 10px;
+  border: 2px solid #948A73;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 2px solid #5C5649;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 18px;
+  text-align: center;
+}
