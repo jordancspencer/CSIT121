@@ -1,0 +1,159 @@
+body {
+  background-color: #FAEBD7;
+  background-image: url("images/sunset.jfif");
+}
+
+.nutrition-table {
+  position: relative; 
+  bottom: 503px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-bottom: 10px solid black;
+}
+
+.nutrition-table thead tr {
+  background-color: slategray;
+  font-size: 20px;
+}
+
+.name {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.info {
+  border-bottom: 5px solid black;
+}
+
+.third-cell {
+  padding-left: 65px;
+}
+
+#wrapper { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#heading { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#ingredients {
+  position: relative; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#instructions {
+  position: relative; 
+  left: 450px;
+  bottom: 563px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#footer {
+  position: relative; 
+  right: 0px;
+  bottom: 520px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+a:link {
+  color: #94D3A8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #36834E;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BCECCB;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #5FD684;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recipe_text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 30px;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+#Instruct {
+  text-align: center;
+  padding-right: 75px;
+}
+
+#list {
+  padding-right: 350px;
+  padding-left: 250px;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+  color: #DC143C;
+}
+
+img {
+  margin-left: 500px;
+  box-shadow: 10px 10px;
+  border-radius: 25px;
+}
+
+form {
+  border-style: double;
+  position: relative; 
+  bottom: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ECBB52;
+  color: #FF6E0F;
+  border: 1px solid black;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}
