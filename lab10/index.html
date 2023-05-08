@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+	<title>Lab 10: JS and More</title>
+	<style>
+		body {background-color: #25324a; padding-left: 300px; max-width: 625px;}
+		h1, h2 {color: #3ff28d; font-weight: bold}
+		h5 {color: #91e3ab; font-style: italic; padding-left: 90px;}
+		p {color: #45cc80}
+		li {color: #91e3ab}
+		.example {padding-left: 10px}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<h1> Lab 10: JS and More </h1>
+<h5> By: Jordan Creary-Spencer </h5>
+
+<h2> What is XML? </h2>
+<p> XML stands for Extensible Markup Language. It is a language used to describe data in a flexible way. Meaning you can represent structures of information in human readable text. XML is a public standard developed by W3C (The World Wide Web Consortium). 
+
+<h2> How is XML used? </h2>
+<p> XML can be used to store and arrange data, as well as exchange information between organizations and systems. XML can essentially work out of sight to simplify the process of creating HTML docs for big web sites. </p>
+
+<h2> What does XML look like? </h2>
+<p> XML code looks human readable. A markup language is information added to a document that enhances its meaning in certain ways. XML accomplishes this with descriptive markup symbols/tags. Here is an example of XML below showing two different lists of students and the grades that each of them recieve: </p>
+
+<img src="xml_example.png" alt="An image of an example XML file">
+
+<h2> What is JavaScript? </h2>
+<p>JavaScript is the final piece of the puzzle that brings websites together and really makes them come alive. It's what you need to add interactivity and fun to a website! JavaScript is a client side programming language that controls multimedia within webpages. JavaScript has nothing to do with Java the language.</p>
+
+<h2> How is JavaScript related to HTML and CSS? </h2>
+<p>Like mentioned above, JavaScript is used to add interactivity to a website. JavaScript is related to HTML and CSS in that it is a core component of building webpages and adding more functionality to them.</p>
+
+<h2> What are some common JavaScript elements, properties, methods, and functions? </h2>
+<p>Some common types of JavaScript elements, properties, methods, and functions include: </p>
+<ul> 
+	<li> Variables - elements which allow you to store data - be it strings of characters, numbers, or other data types. The example below stores the name Toyota in a variable named car for future use:
+		<p class="example"> let car = "Toyota"; </p>
+	</li>
+
+	<li> Loops - elements which allow you to repeat a block of code. The example below increments through a range of 0-5 using the variable i as a placeholder:
+		<p class="example"> for (let i = 0; i &lt; 5; i++) { <br> &nbsp;&nbsp;&nbsp; console.log(i); <br> } </p>
+	</li>
+
+	<li>.href - this is a common property used to return the href attribute of an element. See the example below:
+		<p class="example">let link = document.getElementById("Link to website"); <br>
+						link.href = "https://www.link.com"; </p>
+	</li>
+
+	<li>length - a property commonly used to return the number of characters or elements within a string or array. In the example below we return the number of characters in the string named "Name": 
+		<p class="example">let name = "Jordan"; <br>
+						console.log(name.length);</p>
+	</li>
+
+	<li>toString() - a commonly used JavaScript function which turns the elements inside an array into a string. In the example below we convert the array cars into a string instead:
+		<p class="example"> let cars = ["Mazda", "Honda", "Prius"]; <br>
+						 let string = cars.toString();
+						 <br>	console.log(string); </p>
+	</li>
+
+	<li>indexOf() - a commonly used function to return the position of a specified element within an array. In the example below: indexOf returns the index of the 2 element in the array named numbers:
+		<p class="example">let numbers = [1, 2, 3, 4, 5]; <br>
+						let index = numbers.indexOf(2); <br>
+						console.log(index);2 </p>
+	</li>					
+</ul>
+
+</body>
+</html>
