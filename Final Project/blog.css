@@ -1,0 +1,63 @@
+body {
+	background-color: #fff;
+}
+
+.nav-bar {
+	margin-left: 766px;
+	margin-top: 150px;
+	font-size: 19px;
+	font-family: Gill Sans, sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+a:link {
+  color: #36abcf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28819c;
+}
+
+a:hover {
+  color: #8cd6ed;
+}
+
+a:active {
+  color: #25b0db;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.post {
+  font-family: Gill Sans, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post .date {
+  color: #999;
+  font-size: 14px;
+}
+
+.post .content {
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}

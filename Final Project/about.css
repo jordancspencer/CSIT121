@@ -1,0 +1,55 @@
+body {
+	background-color: #fff;
+}
+
+.nav-bar {
+	margin-left: 766px;
+	margin-top: 150px;
+	font-size: 19px;
+	font-family: Gill Sans, sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+a:link {
+  color: #36abcf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28819c;
+}
+
+a:hover {
+  color: #8cd6ed;
+}
+
+a:active {
+  color: #25b0db;
+}
+
+.story {
+	font-size: 18px;
+	color: #75b5c7;
+	position: relative;
+	left: 360px;
+	bottom: 490px;
+	max-width: 500px;
+	font-family: Gill Sans, sans-serif;
+}
+
+img {
+	margin-left: 950px;
+	margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}

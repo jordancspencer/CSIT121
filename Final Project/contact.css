@@ -1,0 +1,94 @@
+body {
+	background-color: #fff;
+}
+
+.nav-bar {
+	margin-left: 766px;
+	margin-top: 150px;
+	font-size: 19px;
+	font-family: Gill Sans, sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+a:link {
+  color: #36abcf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28819c;
+}
+
+a:hover {
+  color: #8cd6ed;
+}
+
+a:active {
+  color: #25b0db;
+}
+
+form {
+  margin-left: 755px;
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  display: block;
+  font-weight: bold;
+  color: slategrey;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+input, textarea {
+	background-color: #dbdbdb;
+	color: #36abcf;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  border-radius: 500px;
+  border: none;
+}
+
+button[type="submit"] {
+	border: none;
+	color: white;
+
+  background-color: #0077be;
+  padding: 10px;
+  border-radius: 5px;
+
+  font-size: 18px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #36abcf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}

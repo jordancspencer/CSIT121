@@ -1,0 +1,66 @@
+body {
+	background-color: #fff;
+}
+
+.nav-bar {
+	margin-left: 766px;
+	margin-top: 150px;
+	font-size: 19px;
+	font-family: Gill Sans, sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+a:link {
+  color: #36abcf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28819c;
+}
+
+a:hover {
+  color: #8cd6ed;
+}
+
+a:active {
+  color: #25b0db;
+}
+
+.greeting {
+	position: relative;
+	left: 380px;
+	bottom: 260px;
+	max-width: 440px;
+	font-family: Gill Sans, sans-serif;
+}
+
+h1 { 
+	font-size: 50px;
+}
+
+h2 {
+	color: #75b5c7;
+}
+
+h3 {
+	font-size: 22px;
+	color: #75b5c7;
+}
+
+img {
+	margin-left: 950px;
+	margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}

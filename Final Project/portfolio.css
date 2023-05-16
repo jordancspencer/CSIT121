@@ -1,0 +1,104 @@
+body {
+	background-color: #fff;
+}
+
+.nav-bar {
+	margin-left: 766px;
+	margin-top: 150px;
+	font-size: 19px;
+	font-family: Gill Sans, sans-serif;
+}
+
+li {
+	display: inline;
+}
+
+a:link {
+  color: #36abcf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28819c;
+}
+
+a:hover {
+  color: #8cd6ed;
+}
+
+a:active {
+  color: #25b0db;
+}
+
+.projects {
+  position: relative;
+  margin-left: 850px;
+  margin-top: 90px;
+}
+
+h2 {
+  position: relative;
+  right: 130px;
+  bottom: 20px;
+  color: #5dcad9;
+}
+
+#h22 {
+
+}
+
+#github {
+  position: relative;
+  right: 40px;
+  bottom: 10px;
+}
+
+#coming-soon {
+  position: relative;
+    color: #36abcf;
+    right: 133px;
+    top: 5px;
+}
+
+table {
+  width: 775px;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+}
+
+th {
+  background-color: #e0f0ff;
+  color: black;
+}
+
+tr:hover {
+  background-color: #d0e8ff;
+}
+
+#table1 {
+  position: relative;
+  right: 383px;
+  top: 55px;
+}
+
+#table2 {
+  position: relative;
+  left: 390px;
+  bottom: 253px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    columns: 200px 1;
+    color: green;
+    font-family: Didot, Georgia, serif;
+    font-size: 18px;
+  }
+}
